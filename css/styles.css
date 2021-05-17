@@ -1,0 +1,182 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+
+.h3-heading{
+  font-size: 1.8rem;
+}
+
+.h2-heading{
+  font-size: 3rem;
+}
+
+.padding
+{
+    padding: 7% 15%;
+}
+
+/* section */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+ p{
+   color: #8f8f8f;
+ }
+
+
+#title{
+  text-align: left;
+}
+
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+.title-heading{
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Button */
+.download-button{
+  margin: 5% 3% 0 0;
+}
+
+/* tital image */
+.tital-image{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 15%;
+  padding-top: 8%;
+  position: absolute;
+}
+
+@media (max-width: 992px) {
+  .tital-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* features */
+
+.feature{
+  padding: 4.5%;
+}
+
+#features{
+  position: relative;
+}
+
+.feature-images{
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.feature-images:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials{
+  background-color:#ef8172;
+}
+
+.testimonials-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  padding: 30px 0;
+}
+
+.press-image{
+  width: 15%;
+  margin: 0 20px 20px 20px;
+}
+
+/* coursel */
+
+.carousel-indicators{
+  top: 0px;
+  bottom: 0px;
+  margin-top: 350px;
+  margin-bottom: 0px;
+  padding-top: 5%;
+}
+
+
+/* pricing */
+
+#pricing{
+  padding:100px;
+}
+
+.price-col{
+  padding:3% 2%;
+}
+
+/* call to action */
+
+#cta{
+  padding: 5% 15%;
+}
+
+.cta-header{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.cta-button{
+  margin-right: 2%;
+}
+
+/* footer */
+
+#footer{
+  line-height: 3;
+}
+
+.social-icon{
+  margin: 1% 1%;
+}
